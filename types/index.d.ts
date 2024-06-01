@@ -50,6 +50,7 @@ declare type NewUserParams = {
 };
 
 declare type Account = {
+  sharaebleId: string;
   id: string;
   availableBalance: number;
   currentBalance: number;
@@ -83,6 +84,7 @@ declare type Transaction = {
 };
 
 declare type Bank = {
+  shareableId: any;
   $id: string;
   accountId: string;
   bankId: string;
